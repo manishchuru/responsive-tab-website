@@ -1,0 +1,28 @@
+.container{
+    font-size: 15px;
+}
+.menulast{
+    height: 500px;
+}
+.menuimage{
+    float: left;
+}
+.menuimage img{
+    width: 200px;
+    height: 200px;
+}
+
+.menu2, .menu3,.menu1{
+    height: 500px; 
+}
+
+@media screen and (max-width:1000px){
+    .menu2, .menu3,.menu1 ,.menulast{
+        height: 800px; 
+    }   
+}
+@media screen and (max-width:600px){
+    .menu2, .menu3,.menu1 ,.menulast{
+        height: 1200px; 
+    }   
+}

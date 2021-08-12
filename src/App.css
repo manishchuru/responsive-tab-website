@@ -1,0 +1,76 @@
+.navbar{
+    background-color:;
+    padding: 20px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.icon{
+    font-size: 40px;
+    color: red;
+}
+
+ li{
+     float: left;    
+list-style: none;
+ }
+
+
+.navbar-links  a{
+    padding: 20px;
+    text-decoration: none;
+}
+.btn{
+    padding: 7px;
+    width: 100px;
+}
+
+
+
+.danger{
+    padding: 5px;
+   font-size: 20px;
+}
+
+.btn2{
+    display: none;
+}
+
+@media screen and (max-width:815px) {
+    .navbar-links a{
+       display: none;
+    }
+    
+    .btn2{
+        display: block;
+    }
+    .btn{
+        display: none;
+    }
+    .navbar{
+        background-color:green;
+        font-size: 20px;
+      padding-left: 0;
+        
+    }
+
+   
+   .mobile-links {
+    position: absolute;
+    top: 70px;
+    font-size: 30px;
+    background-color: burlywood;
+    width: 100%;
+  padding: 30px
+    
+} 
+
+li{
+    float: none;
+    display: block;
+    text-align: center;
+    }
+
+    
+}
